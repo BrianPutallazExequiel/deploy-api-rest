@@ -2,6 +2,7 @@
   "name": "api-rest",
   "version": "1.0.0",
   "main": "app.js",
+  "type": "module",
   "scripts": {
     "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,6 +14,7 @@
   "dependencies": {
     "cors": "2.8.5",
     "express": "5.1.0",
+    "mongodb": "6.16.0",
     "zod": "3.25.45"
   }
 }
